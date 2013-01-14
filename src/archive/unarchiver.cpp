@@ -1,5 +1,8 @@
 #include "unarchiver.h"
 
+QTX_BEGIN_NAMESPACE
+
+
 /*!
     Constructs an unarchiver with the given \a parent.
  */
@@ -51,3 +54,6 @@ void Unarchiver::setErrorString(const QString & str)
 {
     mErrorString = str;
 }
+
+
+QTX_END_NAMESPACE

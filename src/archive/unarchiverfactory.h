@@ -1,7 +1,10 @@
 #ifndef UNARCHIVERFACTORY_H
 #define UNARCHIVERFACTORY_H
 
+#include "archiveglobal.h"
 #include <QtCore>
+
+QTX_BEGIN_NAMESPACE
 
 
 class Unarchiver;
@@ -18,5 +21,8 @@ public:
 private:
     static QList<UnarchiverPlugin *> mPlugins;
 };
+
+
+QTX_END_NAMESPACE
 
 #endif // UNARCHIVERFACTORY_H

@@ -1,7 +1,10 @@
 #ifndef UNARCHIVER_H
 #define UNARCHIVER_H
 
+#include "archiveglobal.h"
 #include <QtCore>
+
+QTX_BEGIN_NAMESPACE
 
 
 class Unarchiver : public QObject
@@ -34,5 +37,8 @@ private:
     QDir mIntermediateDir;
     QString mErrorString;
 };
+
+
+QTX_END_NAMESPACE
 
 #endif // UNARCHIVER_H

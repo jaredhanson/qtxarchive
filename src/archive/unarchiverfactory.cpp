@@ -1,6 +1,8 @@
 #include "unarchiverfactory.h"
 #include "unarchiverplugin.h"
 
+QTX_BEGIN_NAMESPACE
+
 
 void UnarchiverFactory::registerPlugin(UnarchiverPlugin *plugin)
 {
@@ -27,3 +29,6 @@ QStringList UnarchiverFactory::mimeTypes()
 
 
 QList<UnarchiverPlugin *> UnarchiverFactory::mPlugins;
+
+
+QTX_END_NAMESPACE
