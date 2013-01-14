@@ -1,0 +1,8 @@
+#ifndef QTXARCHIVE_MODULE_H
+#define QTXARCHIVE_MODULE_H
+
+#include "../src/archive/unarchiver.h"
+#include "../src/archive/unarchiverfactory.h"
+#include "../src/archive/unarchiverplugin.h"
+
+#endif
