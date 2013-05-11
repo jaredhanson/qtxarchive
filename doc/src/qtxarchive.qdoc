@@ -1,0 +1,11 @@
+/*!
+    \module QtxArchive
+    \title QtxArchive
+    \brief The QtxArchive module contains classes for handling archive formats, including zip and tar.
+    
+    To include the definitions of this module's classes, use the following directive:
+    
+    \code
+        #include <QtxArchive>
+    \endcode
+*/
